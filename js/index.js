@@ -23,7 +23,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate("|#countdown 3||Hai Sayangku!|Semangat Terus|Kegiatannya Ya!|Have|A|Nice|Day!#rectangle|");
+      S.UI.simulate("|#countdown 3||Hai Sayangku!|Semangat Kegiatannya Ya!|Have|A|Nice|Day!||#rectangle|");
     }
 
     // Add a flag to track animation completion
