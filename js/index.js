@@ -21,9 +21,9 @@ var S = {
     document.body.classList.add('body--ready');
 
     if (i !== -1) {
-      S.UI.simulate(decodeURI(action).substring(i + 3));
+      S.UI.simulate(decodeURI(action).substring(i + 4));
     } else {
-      S.UI.simulate("|#countdown 3||Hai|Sayangku!|Semangat|Kegiatannya Ya!|Have|A|Nice|Day!||#rectangle|");
+      S.UI.simulate("|#countdown 3||Hai|Sayangku!|Maaf Ya|Pacarmu Ini|Ngeselin|Tapi|Sebenarnya|Pacarmu Ini|Ga Berniat|Buat Kamu|Kesal|Hanya Saja|Memang|Ga Peka|Aku Harap|Kamu Bisa|Lebih|Sabar Ya|Sayangku|Maafkan|Pacarmu ini||#rectangle|");
     }
 
     // Add a flag to track animation completion
